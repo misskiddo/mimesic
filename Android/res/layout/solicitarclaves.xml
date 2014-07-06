@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondito" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/mimesic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MIMESIC"
+            android:textColor="#ffff00"
+            android:textSize="55dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Desde aquí podra solicitar de nuevo la clave pública del PKG  y/o su clave privada en el caso de que lo necesite"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnClavePu"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:text="Solicitar clave pública PKG" />
+
+        <Button
+            android:id="@+id/btnClavePr"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:text="Solicitar mi clave privada" />
+    </LinearLayout>
+ 
+</ScrollView>

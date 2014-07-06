@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondito"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mimesic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="MIMESIC"
+        android:textColor="#ffff00"
+        android:textSize="55dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca el número de teléfono del que desea obtener la clave privada, así como el password con el que accede a su cuenta."
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Telefono"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/boxTlfPrivada"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content" 
+        android:singleLine="true"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"  
+        android:background="@drawable/edittext_rounded_corners"/>
+
+   
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/boxPassPrivada"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10" 
+        android:background="@drawable/edittext_rounded_corners"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnSolicitarTlfPrivada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Solicitar" />
+
+</LinearLayout>

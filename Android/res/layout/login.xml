@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondito" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+        
+        <Button
+            android:id="@+id/mimesic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dip"
+            android:text="MIMESIC"
+            android:background="@null"
+            android:textColor="#ffff00"
+            android:textSize="55dip"
+            android:textStyle="bold" />
+
+      
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono" />
+
+     
+        <EditText
+            android:id="@+id/boxTlf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"
+             android:background="@drawable/edittext_rounded_corners"/>
+ 
+       
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password" />
+      
+
+        <EditText
+            android:id="@+id/boxPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/edittext_rounded_corners"
+             android:singleLine="true"
+            android:password="true" />
+ 
+        <CheckBox
+            android:id="@+id/checkRecordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recordar Datos"
+            android:checked = "true"/>
+
+        <TextView android:id="@+id/login_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+ 
+        
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Login" />
+ 
+
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="No tengo cuenta. Registrarme!"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+ 
+</ScrollView>

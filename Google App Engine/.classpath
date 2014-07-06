@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/bcprov-jdk16-140.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/jpbc-api-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/jpbc-crypto-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/jpbc-plaf-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/commons-codec-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/commons-codec-1.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/commons-codec-1.7-sources.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/commons-codec-1.7-tests.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/workspaceHelios/Mimesic2/war/WEB-INF/lib/commons-codec-1.7-test-sources.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/Escritorio/sms_gateway_java_esp/SMStrendSDK/SMStrend.jar"/>
+	<classpathentry kind="lib" path="/home/misskiddo/Escritorio/sms_gateway_java_esp/SMStrendSDK/src/com/oe/sdk"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msgLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/verdeclaro"
+    android:orientation="vertical" >
+    
+      <TextView
+        android:id="@+id/LblContactoMimesic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12px"
+        android:textColor="#FF0000"
+        android:textStyle="bold"/>    
+              
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.30"
+        android:drawSelectorOnTop="false"
+        android:stackFromBottom="true"
+        android:cacheColorHint="#00000000"
+        android:transcriptMode="alwaysScroll" >
+
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/layoutMensaje"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <EditText
+                android:id="@+id/boxMensaje"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1.5"
+                android:gravity="top"
+                android:maxLines="3" >
+
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:orientation="vertical" >
+                             
+                <Button
+                    android:id="@+id/btnEnviarMsg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enviar" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+     
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="@drawable/fondito">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/lblRegistrate"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.00"
+            android:text="CAMBIE SU PASSWORD"
+            android:textColor="#ffff00"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dip"
+            android:text="Introduzca su password actual" />
+      
+        <EditText
+            android:id="@+id/boxPassActual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:password="true"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dip"
+            android:text="Nueva contraseña"
+            />
+
+        <EditText
+            android:id="@+id/boxNewPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:password="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dip"
+          
+            android:text="Confirme su nueva contraseña" />
+
+        <EditText
+            android:id="@+id/boxNewPass2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:password="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btnCambiarPass"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dip"
+            android:text="Cambiar" />
+    
+        <TextView
+            android:id="@+id/register_error"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.01"
+            android:textColor="#FE2E2E" />
+    </LinearLayout>
+
+</ScrollView>

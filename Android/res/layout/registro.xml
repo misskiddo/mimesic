@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="@drawable/fondito">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+    
+        <TextView
+            android:id="@+id/lblRegistrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             android:textColor="#ffff00"
+            android:textSize="55dip"
+            android:text="REGISTRO" />
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dip"
+            android:text="Introduzca su numero de telefono"
+             />
+
+      
+        <EditText
+            android:id="@+id/boxTlf2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dip"
+            android:text="Password"
+            />
+
+        <EditText
+            android:id="@+id/boxPass2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:password="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dip"
+          
+            android:text="Confirme su contraseña" />
+
+        <EditText
+            android:id="@+id/boxPassConfirmar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:password="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:text="Registrar" />
+
+    
+        <TextView
+            android:id="@+id/register_error"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.01"
+            android:textColor="#FE2E2E" />
+    </LinearLayout>
+
+</ScrollView>
